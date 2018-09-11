@@ -1,0 +1,14 @@
+[color]
+	ui = True
+[core]
+	editor = atom --wait
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[user]
+	name = Kameron Eves
+	email = ccackam@gmail.com
+	username = ccackam
+[credental]
+	helper = store
