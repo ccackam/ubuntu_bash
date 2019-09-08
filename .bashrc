@@ -119,9 +119,3 @@ fi
 if [ -f ~/.bash_profile ]; then
 	. ~/.bash_profile
 fi
-
-source /opt/ros/kinetic/setup.bash
-source ~/whirlybird_ws/devel/setup.bash
-source ~/whirlybird_ws/devel/setup.bash
-source ~/catkin_ws/devel/setup.bash
-source ~/catkin_auvsi/devel/setup.bash
