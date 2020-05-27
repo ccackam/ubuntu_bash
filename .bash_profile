@@ -25,7 +25,6 @@ echo -e "${LGREEN}Welcome Kameron! Let's get to work!${NC}"
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
+export PROMPT_DIRTRIM=3
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="\n\[${CYAN}\]\w\[${GREEN}\]\$(__git_ps1)\[${YELLOW}\] >>\[${NC}\] "
-
-
