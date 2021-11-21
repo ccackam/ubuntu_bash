@@ -119,3 +119,22 @@ fi
 if [ -f ~/.bash_profile ]; then
 	. ~/.bash_profile
 fi
+source /opt/ros/noetic/setup.bash
+source /home/kameron/Documents/School/Research/AIDTR/ardupilot/Tools/completion/completion.bash
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/kameron/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/kameron/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/kameron/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/kameron/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+source /opt/ros/noetic/setup.bash
